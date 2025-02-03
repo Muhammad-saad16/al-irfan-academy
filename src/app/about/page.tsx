@@ -16,7 +16,7 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
-              <Image src="/placeholder.svg" alt="Our Story" width={500} height={300} className="rounded-lg shadow-md" />
+              <Image src="/banener.webp" alt="Our Story" width={500} height={300} className="rounded-lg shadow-md" />
             </div>
             <div className="w-full md:w-1/2 md:pl-8">
               <h2 className="text-3xl font-bold mb-4">Our Story</h2>
@@ -41,9 +41,8 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-8">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Sheikh Abdullah", role: "Founder & Lead Instructor", image: "/placeholder.svg" },
-              { name: "Ustadha Aisha", role: "Tajweed Specialist", image: "/placeholder.svg" },
-              { name: "Dr. Muhammad", role: "Tafsir Expert", image: "/placeholder.svg" },
+              { name: "Muhammad Irfan", role: "Founder & Lead Instructor", image: "/irfan.jpg" },
+              
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center">
                 <Image
